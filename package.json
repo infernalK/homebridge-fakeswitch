@@ -5,6 +5,9 @@
   "keywords": [
     "homebridge-plugin"
   ],
+  "dependencies": {
+        "my-homebridge-fakeswitch-dependency": "git+ssh://git@github.com/infernalK/homebridge-fakeswitch.git#master"
+    }
   "engines": {
     "node": ">=0.12.0",
     "homebridge": ">=0.2.0"
