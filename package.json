@@ -1,1 +1,12 @@
-
+{
+  "name": "homebridge-FakeSwitch",
+  "version": "1.0",
+  "description": "Sample Platform plugin for homebridge: https://github.com/nfarina/homebridge",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  }
+}
