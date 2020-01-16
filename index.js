@@ -3,7 +3,7 @@ const Service, Characteristic;
 module.exports = function (homebridge) {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
-  homebridge.registerAccessory("homebridge-FakeSwitch", "MyAwesomeSwitch", mySwitch);
+  homebridge.registerAccessory("homebridge-fakeswitch", "MyAwesomeSwitch", mySwitch);
 };
 
 mySwitch.prototype = {
